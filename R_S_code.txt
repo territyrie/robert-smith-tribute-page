@@ -1,0 +1,53 @@
+<html>
+  <head>
+  
+  <link rel="stylesheet" type="text/css" href="css/tribute.css">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </head>
+  <body>
+    <div id="main">
+    <h1 id="title">Robert Smith</h1>
+      <div id="img-div">
+            <img src= "Pictures/R_S_CarnegieHall.jpg" alt="Robert Smith at Carnegie Hall looking thru window" id="image">
+            <p id="img-caption"><em>One of the Greatest Philanthropist and Businessman Ever</em></p> 
+        </div>
+
+        
+        <div id="img-div">
+            <img src= "Pictures/R_S_Smiling.jfif" alt="Robert Smith smiling picture" id="image">
+            
+        </div>
+        <p>"I found beauty in the absolute truth of machines in the classroom, I found purpose in the messiness of human interactions." -- Robert Smith, founder, Vista Equity Partners</p>
+
+        <div class="row">
+                <div class="column">
+        
+                <img src= "Pictures/R_S_Forbes.jfif" alt="Robert Smith on cover of Forbes Magazine" id="image">
+                <img src= "Pictures/R_S_looking_Out_Window_Meeting_Room.jfif" alt="Robert Smith looking out window in meeting room" id="image">
+                <img src= "Pictures/R_S_Morehouse.jfif" alt="Robert Smith at Morehouse" id="image">
+                <img src= "Pictures/R_S_Sitting.jfif" alt="Robert Smith sitting Picture" id="image">
+                </div>
+        </div>
+        <div class="row">
+                <div class="column">
+                <img src= "Pictures/R_S_Speaking.jpg" alt="Robert Smith speaking" id="image">
+                <img src= "Pictures/R_S_Speach.jfif" alt="Robert Smith giving speach" id="image">
+                <img src= "Pictures/R_S_smiling_CarnegieHall.jfif" alt="Robert Smith smiling with Cargegie Hall Background" id="image">
+                <img src= "Pictures/R_S_pic_from_interview.jpg" alt="Robert Smith being interviewed picture" id="image">
+                </div>  
+        </div>
+        
+      <div id="tribute-info">
+        <center>
+            <p>
+                    <li>Early Life</li>
+                    <li>Career</li>
+                    <li>Vista Equity Partners</li>
+                    <li>Philanthropy</li>
+            </p>
+        </center>    
+        </div>
+      <a href="https://en.wikipedia.org/wiki/Robert_F._Smith_(investor)" target="_blank" id="tribute-link">Learn more about Robert F Smith</a>
+    </div>
+  </body>
+</html>

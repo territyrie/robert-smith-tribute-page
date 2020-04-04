@@ -1,0 +1,57 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    .column {
+        float: center;
+        width: 50%;
+        padding: 10px;
+        height: 300px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 75%;
+      max-width: 75%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+ #tribute-info {
+     align-content: center;
+ }
+ #img-caption {
+     font-size: 30px;
+    
+ }
+ #img-div {
+     background-color: whitesmoke;
+     display: justify;
+     margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+ }
+ .img-div {
+    background-color: whitesmoke;
+    display: justify;
+    margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
